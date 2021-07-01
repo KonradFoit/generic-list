@@ -255,7 +255,6 @@ list_error_t genericList_getDataAt(generic_list_t* list, unsigned int index, voi
 list_error_t genericList_removeElementAt(generic_list_t* list, unsigned int index)
 {
     generic_list_node_t* oldNode;
-    generic_list_node_t* newNode;
     list_error_t err;
     /* Validate params */
     if ( NULL == list )
